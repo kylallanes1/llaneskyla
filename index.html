@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyla Llanes - Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <nav class="minimalist-nav">
+        <div class="nav-container">
+            <div class="nav-brand">Portfolio.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                 <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <section id="hero">
+    <div class="hero-container">
+        <div class="hero-image">
+            <img src="images/profile1.png" alt="kyla Llanes">
+        </div>
+        <div class="hero-content">
+            
+            <h1><span>Kyla Llanes</span></h1>
+        
+            <p class="hero-description">
+                 I view learning as a multifaceted process, where complex ideas are made clear through consistent effort. My goal is not only to graduate but to develop practical skills that are valuable in a professional setting.
+            </p>
+        </div>
+    </div>
+</section>
+
+ <section id="education" class="section education-section">
+  <h2 class="section-title">Education</h2>
+  <div class="education-cards">
+    
+    <!-- College -->
+    <div class="edu-card">
+      <div class="edu-icon"><i class="fas fa-university"></i></div>
+      <div class="edu-info">
+        <h3>Holy Cross of Davao College</h3>
+        <span class="edu-date">2021 - 2025</span>
+        <p>Bachelor's Degree in Information Technology</p>
+        <ul>
+        
+        </ul>
+      </div>
+    </div>
+
+    <!-- High School -->
+    <div class="edu-card">
+      <div class="edu-icon"><i class="fas fa-school"></i></div>
+      <div class="edu-info">
+        <h3>Davao City National High School</h3>
+        <span class="edu-date">2015 – 2020</span>
+        <p>Senior High School – ABM Track</p>
+        <ul>
+          <li>With Honors</li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <!-- Elementary -->
+    <div class="edu-card">
+      <div class="edu-icon"><i class="fas fa-book-reader"></i></div>
+      <div class="edu-info">
+        <h3>Jose P. Laurel Elementary School</h3>
+        <span class="edu-date">2009 - 2014
+       <ul>
+          <li>Third Honorable Mention</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+     <section id="certificates" class="section">
+  <h2>My Certificates</h2>
+  <div class="certificate-carousel">
+    <div class="carousel-track">
+      <a href="#" data-img="images/cert2.png"><img src="images/cert2.png" alt="Certificate 2"></a>
+      <a href="#" data-img="images/cert3.jpg"><img src="images/cert3.jpg" alt="Certificate 3"></a>
+      <a href="#" data-img="images/cert4.jpg"><img src="images/cert4.jpg" alt="Certificate 4"></a>
+      <a href="#" data-img="images/cert5.jpg"><img src="images/cert5.jpg" alt="Certificate 5"></a>
+      <a href="#" data-img="images/cert6.jpg"><img src="images/cert6.jpg" alt="Certificate 6"></a>
+      <a href="#" data-img="images/cert7.jpg"><img src="images/cert7.jpg" alt="Certificate 7"></a>
+    </div>
+  </div>
+
+  <!-- Modal for full certificate view -->
+  <div id="certModal" class="modal">
+    <span class="close">&larr; Back</span>
+    <img class="modal-content" id="modalImg" alt="Certificate Full View">
+  </div>
+</section>
+
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <!-- Project 1: PosePerfect App -->
+    <div class="project-card">
+      <img src="images/logo1.png" alt="PosePerfect Logo" class="project-logo">
+      <h3>PosePerfect</h3>
+      <p>An AI-powered Android application that provides real-time exercise form correction using pose estimation and machine learning.</p>
+      <span class="project-tag">Android</span>
+      <span class="project-tag">Pose Estimation</span>
+      <span class="project-tag">Machine Learning</span>
+    </div>
+
+    <!-- Project 2: Zombie Shooter Game -->
+    <div class="project-card">
+      <img src="images/logo2.jpg" alt="Zombie FPS Logo" class="project-logo">
+      <h3>Zombie Survival FPS</h3>
+      <p>A Unity-based 3D first-person shooter game where players fight through waves of zombies. Features immersive sound, animated enemies, gun mechanics, and wave scaling challenges. Built for game development training.</p>
+      <span class="project-tag">Unity</span>
+      <span class="project-tag">Game Design</span>
+    </div>
+
+    <!-- Project 3: RentalEase Console App -->
+    <div class="project-card">
+      <img src="images/logo3.jpg" alt="Rental System Logo" class="project-logo">
+      <h3>Rental Management System</h3>
+      <p>A console-based rental management system developed using C# and SQL. Allows users to track available rooms, view renter details, and calculate rental costs. Designed for small-scale boarding house or apartment monitoring.</p>
+      <span class="project-tag">C#</span>
+      <span class="project-tag">SQL</span>
+      <span class="project-tag">Console App</span>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+       <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill-category">
+            <h3>Technical Strengths</h3>
+            <ul>
+                <li>Quick to Learn New Tools</li>
+                <li>Visual & Hands-On Learner</li>
+                <li>Good Understanding of PC Hardware & Specs</li>
+                <li>Basic Coding Skills with Willingness to Grow</li>
+                <li>Adaptable to New Technologies</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Team Strengths</h3>
+            <ul>
+                <li>Reliable in Group Projects</li>
+                <li>Easy to Work With</li>
+                <li>Open to Ideas & Feedback</li>
+                <li>Gets Things Done Together</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+        <section id="experience" class="section">
+  <h2>Experience</h2>
+
+  <div class="experience-item">
+    <h3>Intern</h3>
+    <h4>SPLACE BPO</h4>
+    <p class="date">March 2025 – june 2025</p>
+    <ul>
+      <li>Assisted agents with daily tasks and followed instructions from my immediate supervisor.</li>
+      <li>Handled data encoding, inventory updates, and basic cable management.</li>
+      <li>Gained practical experience working in a real office environment.</li>
+    </ul>
+  </div>
+
+  <div class="experience-item">
+    <h3>Customer Representative (Non-Voice)</h3>
+    <h4>Uptalk Solutions</h4>
+    <p class="date">May 2024 - July 2024</p>
+    <ul>
+      <li>Contact clients via chat to offer home insurance products.</li>
+      <li>Record and submit customer information for accepted offers.</li>
+      <li>Improved communication skills and accuracy in data entry.</li>
+    </ul>
+  </div>
+</section>
+
+
+        <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    
+    <div class="contact-info">
+        <p><strong>Phone:</strong> +63 953 2956 436</p>
+        <p><strong>Birthday:</strong> August 14, 2002</p>
+        <p><strong>Address:</strong> V-Mapa St. Arellano Ext., Davao City</p>
+    </div>
+    
+    <div class="contact-links">
+        <a href="https://www.facebook.com/kyla.lorredo.5/" target="_blank" class="social-link">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/kylallanes_/" target="_blank" class="social-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:kyla.llanes@hcdc.edu.ph" class="social-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+</section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
